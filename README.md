@@ -1,1 +1,1 @@
-# demo-pay
+# demo-shipit
