@@ -25,19 +25,35 @@ public class SeleniumRegressionTest extends TestCase {
     }
 
 
-    public void testShipit1() {
+    public void testShipItRouteOptimization1() {
         assertTrue(true);
     }
 
-    public void testShipit2() {
+    public void testShipItRightHandTurnUnavailable() {
         assertTrue(true);
     }
 
-    public void testShipit3() {
+    public void testShipItScanner() {
         assertTrue(true);
     }
 
-    public void testShipit4() {
+    public void testShipItDelivered() {
+        assertTrue(true);
+    }
+    
+    public void testShipItDeliveryCancel() {
+        assertTrue(true);
+    }
+    
+    public void testShipItItemDamage() {
+        assertTrue(true);
+    }
+    
+    public void testShipItItemReturnPickUp() {
+        assertTrue(true);
+    }
+    
+    public void testShipItStolenItem() {
         assertTrue(true);
     }
 }
