@@ -7,13 +7,13 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class SeleniumRegressionTest extends TestCase {
+public class ShippingSystemTest extends TestCase {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public SeleniumRegressionTest(String testName) {
+    public ShippingSystemTest(String testName) {
         super(testName);
     }
 
@@ -21,7 +21,7 @@ public class SeleniumRegressionTest extends TestCase {
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite(SeleniumRegressionTest.class);
+        return new TestSuite(ShippingSystemTest.class);
     }
 
 
