@@ -30,11 +30,11 @@ public class ShippingSystemTest extends TestCase {
     }
 
     public void testShipItRightHandTurnUnavailable() {
-        assertTrue(true);
+        assertTrue(false);
     }
 
     public void testShipItScanner() {
-        assertTrue(true);
+        assertTrue(false);
     }
 
     public void testShipItDelivered() {
