@@ -42,7 +42,7 @@ public class ShippingSystemTest extends TestCase {
     }
     
     public void testShipItDeliveryCancel() {
-        assertTrue(true);
+        assertTrue(false);
     }
     
     public void testShipItItemDamage() {
