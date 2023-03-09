@@ -12,7 +12,6 @@
       <groupId>junit</groupId>
       <artifactId>junit5-maven</artifactId>
       <version>1.0</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
