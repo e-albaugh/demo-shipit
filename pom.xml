@@ -10,8 +10,8 @@
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
+      <artifactId>junit5-maven</artifactId>
+      <version>1.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -25,8 +25,9 @@
             <dependencies>
                 <dependency>
                     <groupId>org.junit.jupiter</groupId>
-                    <artifactId>junit-jupiter-engine</artifactId>
-                    <version>5.4.0</version>
+		                <artifactId>junit-jupiter-engine</artifactId>
+		                <version>5.5.2</version>
+		                <scope>test</scope>
                 </dependency>
             </dependencies>
         </plugin>
@@ -36,7 +37,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
+        <version>3.8.1</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
